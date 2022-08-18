@@ -1,11 +1,11 @@
 export default {
-    name: "category",
-    title: "Category",
+    name: "skills",
+    title: "Skills",
     type: "document",
     fields: [
         {
-            name: "title",
-            title: "Title",
+            name: "name",
+            title: "Name",
             type: "string",
         },
         {

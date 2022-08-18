@@ -1,6 +1,6 @@
 export default {
-    name: "category",
-    title: "Category",
+    name: "pageStaticContent",
+    title: "Page Static Content",
     type: "document",
     fields: [
         {
@@ -11,7 +11,17 @@ export default {
         {
             name: "description",
             title: "Description",
-            type: "text",
+            type: "array",
+            of: [
+                {
+                    type: "block",
+                },
+            ],
+        },
+        {
+            name: "indicator",
+            title: "Indicator",
+            type: "string",
         },
         {
             name: "order",
