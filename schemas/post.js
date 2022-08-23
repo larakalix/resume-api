@@ -47,6 +47,11 @@ export default {
       title: 'Body',
       type: 'blockContent',
     },
+    {
+      name: "showNewsletter",
+      title: "Show newsletter form",
+      type: "boolean",
+  },
   ],
 
   preview: {
