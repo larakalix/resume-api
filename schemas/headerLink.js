@@ -1,6 +1,6 @@
 export default {
     name: "headerLink",
-    title: "Header Link",
+    title: "Header Links",
     type: "document",
     fields: [
         {
