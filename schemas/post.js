@@ -38,6 +38,12 @@ export default {
             of: [{ type: "reference", to: { type: "category" } }],
         },
         {
+            name: "relatedPosts",
+            title: "Related",
+            type: "array",
+            of: [{ type: "reference", to: { type: "post" } }],
+        },
+        {
             name: "publishedAt",
             title: "Published at",
             type: "datetime",

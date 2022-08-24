@@ -15,6 +15,7 @@ import skills from "./skills";
 import pageStaticContent from "./pageStaticContent";
 import headerLink from "./headerLink";
 import subs from "./subs";
+import shortCode from "./shortCode";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -37,5 +38,6 @@ export default createSchema({
         // { type: 'typename' } in other document schemas
         blockContent,
         youtube,
+        shortCode,
     ]),
 });
