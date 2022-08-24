@@ -53,6 +53,11 @@ export default {
             type: "boolean",
         },
         {
+            name: "showIndexes",
+            title: "Show Indexes",
+            type: "boolean",
+        },
+        {
             name: "tags",
             title: "Tags",
             type: "array",
