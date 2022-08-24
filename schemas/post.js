@@ -52,6 +52,16 @@ export default {
             title: "Show newsletter form",
             type: "boolean",
         },
+        {
+            name: "tags",
+            title: "Tags",
+            type: "array",
+            of: [
+                {
+                    type: "string",
+                },
+            ],
+        },
     ],
 
     preview: {
