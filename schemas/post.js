@@ -48,6 +48,13 @@ export default {
             type: "blockContent",
         },
         {
+            name: "content",
+            title: "Content",
+            type: "markdown",
+            description:
+                "A Github flavored markdown field with image uploading",
+        },
+        {
             name: "showNewsletter",
             title: "Show newsletter form",
             type: "boolean",
