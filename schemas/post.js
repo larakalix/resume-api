@@ -32,6 +32,14 @@ export default {
             },
         },
         {
+            name: "banner",
+            title: "Background banner",
+            type: "image",
+            options: {
+                hotspot: true,
+            },
+        },
+        {
             name: "categories",
             title: "Categories",
             type: "array",
