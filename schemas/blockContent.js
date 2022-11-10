@@ -68,11 +68,8 @@ export default {
                 language: "js",
             },
         },
-        {
-            type: "youtube",
-        },
-        {
-            type: "shortCode",
-        },
+        { type: "youtube" },
+        { type: "shortCode" },
+        { type: "instagramPost" },
     ],
 };

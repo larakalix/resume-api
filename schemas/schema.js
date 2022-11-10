@@ -16,6 +16,7 @@ import pageStaticContent from "./pageStaticContent";
 import headerLink from "./headerLink";
 import subs from "./subs";
 import shortCode from "./shortCode";
+import instagramPost from "./instagramPost";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -39,5 +40,6 @@ export default createSchema({
         blockContent,
         youtube,
         shortCode,
+        instagramPost,
     ]),
 });

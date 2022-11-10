@@ -2,6 +2,7 @@ export { default as author } from './author';
 export { default as blockContent } from './blockContent';
 export { default as category } from './category';
 export { default as headerLink } from './headerLink';
+export { default as instagramPost } from './instagramPost';
 export { default as pageStaticContent } from './pageStaticContent';
 export { default as post } from './post';
 export { default as project } from './project';

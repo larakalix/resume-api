@@ -23,5 +23,13 @@ export default {
             title: "Order",
             type: "number",
         },
+        {
+            name: "banner",
+            title: "Project preview",
+            type: "image",
+            options: {
+                hotspot: true,
+            },
+        },
     ],
 };
