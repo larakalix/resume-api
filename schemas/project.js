@@ -24,6 +24,11 @@ export default {
             type: "number",
         },
         {
+            name: "highlightOnHomepage",
+            title: "Highlight on homepage",
+            type: "boolean",
+        },
+        {
             name: "banner",
             title: "Project preview",
             type: "image",
